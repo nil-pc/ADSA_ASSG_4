@@ -1,6 +1,6 @@
 # ADSA_ASSG_4
 
-Dijkstra’s algorithm
+# Dijkstra’s algorithm
 
 Compilation cmd : g++ -std=gnu++11 Djisktra.cpp <br>
 Rum cmd : ./a.out
@@ -50,3 +50,32 @@ stop<br>
 10<br>
 13<br>
 1<br>
+
+# Bellman Ford's algorithm
+
+compilation cmd : g++ -std=gnu++11 bellmanford.cpp
+Run cmd : ./a.out
+
+# Sample Input
+
+Enter number of vertices and edges : 5 <br>
+8<br>
+<br>
+Enter each edge and its weight (u, v, wt) : 0 1 -1<br>
+0 2 4<br>
+1 2 3<br>
+1 3 2<br>
+1 4 2<br>
+3 2 5<br>
+3 1 1<br>
+4 3 -3<br>
+<br>
+Enter the source vertex : 0<br>
+<br>
+# Sample Output<br>
+Distance of vertex 0 to 0 is 0<br>
+Distance of vertex 0 to 1 is -1<br>
+Distance of vertex 0 to 2 is 2<br>
+Distance of vertex 0 to 3 is -2<br>
+Distance of vertex 0 to 4 is 1<br>
+
